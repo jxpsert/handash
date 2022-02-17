@@ -3,9 +3,9 @@
   src: url("font.ttf");
 }
 @font-face {
-    font-family: "Avenir Next Medium";
-    src: url("font2.ttf");
-  }
+  font-family: "Avenir Next Medium";
+  src: url("font2.ttf");
+}
 
 body {
   margin: 0;
@@ -41,6 +41,7 @@ body {
 }
 
 .button {
+  overflow: hidden;
   display: flex;
   font-family: "Avenir Next Bold";
   padding: auto;
@@ -77,16 +78,16 @@ body {
 }
 
 footer {
-    font-family: 'Avenir Next Medium';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: auto;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 10px 10px 10px black;
+  font-family: "Avenir Next Medium";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: auto;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 10px 10px 10px black;
 }
 footer a {
-    color: #FFFFFF;
+  color: #ffffff;
 }
