@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Avenir Next Bold";
+  src: url("font.ttf");
+}
+@font-face {
+    font-family: "Avenir Next Medium";
+    src: url("font2.ttf");
+  }
+
+body {
+  margin: 0;
+  padding: 1em;
+  background-image: url("bg.jpg");
+  align-content: center;
+  justify-content: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 22vw 22vw 22vw;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  grid-template-rows: auto auto;
+  align-items: center;
+  gap: 2.75em;
+  align-content: center;
+  justify-content: center;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  font-family: "Avenir Next Bold";
+  padding: auto;
+  background-color: #e50056;
+  font-size: 2em;
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  height: 25vh;
+  transition: 0.2s;
+  box-shadow: 0.5em 0.5em 1em black;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #c7004c;
+  font-size: 2.5em;
+  text-shadow: 10px 10px 10px black;
+}
+
+.toptext {
+  font-family: "Avenir Next Bold";
+  font-size: 4em;
+  text-shadow: 10px 10px 10px black;
+  color: white;
+}
+
+.hanpink {
+  color: #e50056;
+}
+
+footer {
+    font-family: 'Avenir Next Medium';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: auto;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 10px 10px 10px black;
+}
+footer a {
+    color: #FFFFFF;
+}
