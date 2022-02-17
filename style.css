@@ -43,7 +43,7 @@ body {
   font-family: "Avenir Next Bold";
   padding: auto;
   background-color: #e50056;
-  font-size: 2em;
+  font-size: 3em;
   border-radius: 1rem;
   color: white;
   text-decoration: none;
@@ -59,7 +59,7 @@ body {
 .button:hover {
   cursor: pointer;
   background-color: #c7004c;
-  font-size: 2.5em;
+  font-size: 3.5em;
   text-shadow: 10px 10px 10px black;
 }
 
