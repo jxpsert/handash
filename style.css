@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 1em;
   background-image: url("bg.jpg");
+  background-size: cover;
   align-content: center;
   justify-content: center;
   -webkit-touch-callout: none; /* iOS Safari */
