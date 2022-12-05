@@ -15,7 +15,6 @@ html {
 
 body {
   min-height: 100%;
-  padding: 1em;
   background-image: url("bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
