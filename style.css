@@ -99,6 +99,23 @@ footer a {
   color: #ffffff;
 }
 
+.alert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff2f40;
+  font-family: "Avenir Next Medium";
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
 @media screen and (max-width: 800px) {
   footer a {
     display: none;
